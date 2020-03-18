@@ -39,6 +39,18 @@ class TreeSpecies(object):
 
 
 if __name__ == '__main__':
+
+    Evergreens = ['Red Cedar', 'Jack Pine', 'Douglas Fir', 'Live Oak', 'Holly'];
+    Spruce = ['Oriental Spruce', 'Colorado Spruce', 'Norway Spruce', 'Red Spruce', 'Dragon Spruce']
+    """prompt the user"""
+    print("Welcome to Bing's Landscaping")
+    print("You will be asked how many trees you would like to have planted on your property.")
+    evg = input("How many Evergreens? ")
+    print("Number of Evergreens", evg)
+
+    spc = input("How many Spruce? ")
+    print("Number of Spruce", spc)
+
     """Evergreen Trees"""
     evergreen_tree_data = (('a', 1, 'DouglasFir'), ('a', 2, 'Hemlock'), ('b', 1, 'Holly'))
     eg_tree_family_objects = []
