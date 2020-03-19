@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZGPLEqSJqa8dgWZe8PGTZIiKAU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -15,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
     <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -58,25 +66,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="263" key="GridCell.Tab.0.bottom" timestamp="1584495990025">
+    <state x="948" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584593359764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584495990025" />
-    <state width="914" height="263" key="GridCell.Tab.0.center" timestamp="1584495990025">
+    <state x="948" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584593359764" />
+    <state width="936" height="263" key="GridCell.Tab.0.bottom" timestamp="1584640510198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584495990025" />
-    <state width="914" height="263" key="GridCell.Tab.0.left" timestamp="1584495990025">
+    <state width="936" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584640510198" />
+    <state width="936" height="263" key="GridCell.Tab.0.center" timestamp="1584640510198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584495990025" />
-    <state width="914" height="263" key="GridCell.Tab.0.right" timestamp="1584495990025">
+    <state width="936" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584640510198" />
+    <state width="936" height="263" key="GridCell.Tab.0.left" timestamp="1584640510198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584495990025" />
-    <state x="964" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584494528629">
+    <state width="936" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584640510198" />
+    <state width="936" height="263" key="GridCell.Tab.0.right" timestamp="1584640510198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="964" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584494528629" />
+    <state width="936" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584640510198" />
+    <state x="809" y="165" key="SettingsEditor" timestamp="1584634246829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="809" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584634246828" />
+    <state x="964" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584626949421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="964" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584626949421" />
   </component>
 </project>

@@ -1,3 +1,7 @@
+#from random import uniform, random, choice, sample, choices
+import random
+import arr
+
 class LandscapeTrees(object):
     """Tree Class"""
 
@@ -9,7 +13,7 @@ class LandscapeTrees(object):
     """active constructor"""
 
     def trees(self, tree_name):
-        return "LandscapePattern[% s]" % (tree_name)
+        return "LandscapeTree[% s]" % (tree_name)
 
 
 class TreeSpecies(object):
@@ -42,11 +46,19 @@ if __name__ == '__main__':
 
     Evergreens = ['Red Cedar', 'Jack Pine', 'Douglas Fir', 'Live Oak', 'Holly'];
     Spruce = ['Oriental Spruce', 'Colorado Spruce', 'Norway Spruce', 'Red Spruce', 'Dragon Spruce']
+    alpha = ['a', 'b', 'c', 'd', 'e', 'f']
+    evergreen_tree_data = ();
+    spruce_tree_data = ();
+
     """prompt the user"""
     print("Welcome to Bing's Landscaping")
     print("You will be asked how many trees you would like to have planted on your property.")
     evg = input("How many Evergreens? ")
     print("Number of Evergreens", evg)
+
+    print(random, type(random))
+    evergreen_tree = random.choices(tuple(Evergreens))
+    print("Randomly item from Set is - ", evergreen_tree)
 
     spc = input("How many Spruce? ")
     print("Number of Spruce", spc)
