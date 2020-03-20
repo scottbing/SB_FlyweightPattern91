@@ -70,22 +70,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="948" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584593359764" />
-    <state width="936" height="263" key="GridCell.Tab.0.bottom" timestamp="1584666906267">
+    <state x="757" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584667888988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584666906267" />
-    <state width="936" height="263" key="GridCell.Tab.0.center" timestamp="1584666906267">
+    <state x="757" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584667888988" />
+    <state width="936" height="263" key="GridCell.Tab.0.bottom" timestamp="1584668389365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584666906267" />
-    <state width="936" height="263" key="GridCell.Tab.0.left" timestamp="1584666906267">
+    <state width="936" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584668389365" />
+    <state width="936" height="263" key="GridCell.Tab.0.center" timestamp="1584668389365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584666906267" />
-    <state width="936" height="263" key="GridCell.Tab.0.right" timestamp="1584666906267">
+    <state width="936" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584668389365" />
+    <state width="936" height="263" key="GridCell.Tab.0.left" timestamp="1584668389365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584666906267" />
+    <state width="936" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584668389365" />
+    <state width="936" height="263" key="GridCell.Tab.0.right" timestamp="1584668389365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584668389365" />
     <state width="936" height="165" key="GridCell.Tab.1.bottom" timestamp="1584665539325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -110,16 +114,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="964" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584626949421" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trees.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,5 @@
 # from random import uniform, random, choice, sample, choices
 import random
-import arr
 
 
 class LandscapeTrees(object):
@@ -72,9 +71,9 @@ if __name__ == '__main__':
 
     """process  the trees"""
     for i in range(int(evg)):
-        # eg_choice = random.choices(tuple(Evergreens))
-        obj = TreeSpecies(random.choice(alpha), random.randint(1, 10))
-        obj.set_tree_info(random.choices(tuple(Evergreens)))
+        eg_choice = random.choices(tuple(Evergreens))
+        obj = TreeSpecies(random.choice(alpha), str(hash(eg_choice[0])))
+        obj.set_tree_info(eg_choice)
         eg_tree_family_objects.append(obj)
 
     """objects with the same hash are the same object"""
@@ -89,9 +88,9 @@ if __name__ == '__main__':
 
     """process  the trees"""
     for i in range(int(spc)):
-        # eg_choice = random.choices(tuple(Evergreens))
-        obj = TreeSpecies(random.choice(alpha), random.randint(1, 10))
-        obj.set_tree_info(random.choices(tuple(Spruce)))
+        sp_choice = random.choices(tuple(Spruce))
+        obj = TreeSpecies(random.choice(alpha), str(hash(sp_choice[0])))
+        obj.set_tree_info(sp_choice)
         sp_tree_family_objects.append(obj)
 
     """objects with the same hash are the same object"""
