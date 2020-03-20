@@ -1,6 +1,7 @@
-#from random import uniform, random, choice, sample, choices
+# from random import uniform, random, choice, sample, choices
 import random
 import arr
+
 
 class LandscapeTrees(object):
     """Tree Class"""
@@ -17,13 +18,13 @@ class LandscapeTrees(object):
 
 
 class TreeSpecies(object):
-    
     """use a dictionary to store the tree information"""
     tree_family = {}
 
     """This is the basis of the Flyweight pattern..."""
     """if tree already exists, use it, otherwise create a new one"""
     """trees are delineated by a unique id"""
+
     def __new__(cls, name, tree_family_id):
         try:
             id = cls.tree_family[tree_family_id]
@@ -56,21 +57,24 @@ if __name__ == '__main__':
     evg = input("How many Evergreens? ")
     print("Number of Evergreens", evg)
 
-    print(random, type(random))
-    evergreen_tree = random.choices(tuple(Evergreens))
-    print("Randomly item from Set is - ", evergreen_tree)
+    eg_tree_choice = random.choices(tuple(Evergreens))
+    print("Randomly item from Set is - ", eg_tree_choice)
 
     spc = input("How many Spruce? ")
     print("Number of Spruce", spc)
+
+    sp_tree_choice = random.choices(tuple(Evergreens))
+    print("Randomly item from Set is - ", sp_tree_choice)
 
     """Evergreen Trees"""
     evergreen_tree_data = (('a', 1, 'DouglasFir'), ('a', 2, 'Hemlock'), ('b', 1, 'Holly'))
     eg_tree_family_objects = []
 
     """process  the trees"""
-    for i in evergreen_tree_data:
-        obj = TreeSpecies(i[0], i[1])
-        obj.set_tree_info(i[2])
+    for i in range(int(evg)):
+        # eg_choice = random.choices(tuple(Evergreens))
+        obj = TreeSpecies(random.choice(alpha), random.randint(1, 10))
+        obj.set_tree_info(random.choices(tuple(Evergreens)))
         eg_tree_family_objects.append(obj)
 
     """objects with the same hash are the same object"""
@@ -84,9 +88,10 @@ if __name__ == '__main__':
     sp_tree_family_objects = []
 
     """process  the trees"""
-    for i in spruce_tree_data:
-        obj = TreeSpecies(i[0], i[1])
-        obj.set_tree_info(i[2])
+    for i in range(int(spc)):
+        # eg_choice = random.choices(tuple(Evergreens))
+        obj = TreeSpecies(random.choice(alpha), random.randint(1, 10))
+        obj.set_tree_info(random.choices(tuple(Spruce)))
         sp_tree_family_objects.append(obj)
 
     """objects with the same hash are the same object"""
