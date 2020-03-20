@@ -67,7 +67,7 @@ if __name__ == '__main__':
     print("Randomly item from Set is - ", sp_tree_choice)
 
     """Evergreen Trees"""
-    evergreen_tree_data = (('a', 1, 'DouglasFir'), ('a', 2, 'Hemlock'), ('b', 1, 'Holly'))
+    # evergreen_tree_data = (('a', 1, 'DouglasFir'), ('a', 2, 'Hemlock'), ('b', 1, 'Holly'))
     eg_tree_family_objects = []
 
     """process  the trees"""
@@ -84,7 +84,7 @@ if __name__ == '__main__':
         print(i.get_tree_info())
 
     """Spruce Trees"""
-    spruce_tree_data = (('a', 1, 'Blue'), ('a', 2, 'Black Hills'), ('b', 1, 'Norway'))
+    # spruce_tree_data = (('a', 1, 'Blue'), ('a', 2, 'Black Hills'), ('b', 1, 'Norway'))
     sp_tree_family_objects = []
 
     """process  the trees"""
